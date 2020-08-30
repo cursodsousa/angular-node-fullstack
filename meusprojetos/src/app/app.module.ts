@@ -1,21 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { ReactiveFormsModule } from '@angular/forms'
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-import { MeuPrimeiroComponent } from './meuprimeiro/meuprimeiro.component';
-import { HelloComponent } from './hello/hello.component'
+import { CadastrousuariosComponent } from './cadastrousuarios/cadastrousuarios.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MeuPrimeiroComponent,
-    HelloComponent
+    CadastrousuariosComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
