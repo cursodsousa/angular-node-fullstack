@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { PrimeiroComponent } from './primeiro-componente/primeiro.component'
+import { MeuPrimeiroComponent } from './meuprimeiro/meuprimeiro.component';
+import { HelloComponent } from './hello/hello.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    PrimeiroComponent
+    MeuPrimeiroComponent,
+    HelloComponent
   ],
   imports: [
     BrowserModule,
